@@ -7,6 +7,7 @@ function sayMyName() {
 
 sayMyName();
 
+
 let ips = new XMLHttpRequest();
 console.log(ips);
 ips.open("GET", "https://restcountries.com/v3.1/all");

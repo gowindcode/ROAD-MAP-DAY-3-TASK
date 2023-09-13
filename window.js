@@ -69,3 +69,20 @@ console.log("after .unShift:", arre);
 console.log("before.shift:", arre);
 arre.shift(); //remove value in first
 console.log("after.shift:", arre);
+
+console.log("_____________ROAD MAP DAY 3 CLASS TASK_______________");
+
+//how to compare two JSON have the same properties without order?
+
+const Obj1 = {
+    name: "Person 1",
+    age: 5,
+}
+const Obj2 = {
+    age: 5,
+    name: "Person 1",
+    
+};
+
+console.log(JSON.stringify(Obj1) === JSON.stringify(Obj2));
+console.log(Obj1 === Obj2);
